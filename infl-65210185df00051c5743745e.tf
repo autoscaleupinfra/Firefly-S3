@@ -3,10 +3,10 @@ module "terraform-aws-s3-bucket" {
   versioning = true
 }
 
-terraform {
-  backend "s3" {
-    bucket = "834277767436-tf-state"
-    key    = "ecr.tfstate"
-    region = "us-east-1"
-  }
-}
+#terraform {
+#  backend "s3" {
+#    bucket = "834277767436-tf-state"
+#    key    = "ecr.tfstate"
+#    region = "us-east-1"
+#  }
+#}
